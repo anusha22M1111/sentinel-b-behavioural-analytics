@@ -88,4 +88,8 @@ Engagement volatility and attendance drift emerge as dominant behavioural predic
 
 ---
 
-## 🏆 Built For Behavioural Analytics Hackathon
+## 📸 Dashboard Preview
+
+![Individual View](assets/individual.png)
+![Institutional View](assets/institution.png)
+![Model Performance](assets/model.png)
