@@ -1,72 +1,91 @@
-🔷 SENTINEL-B: Behavioural Early Warning Intelligence System
-🎯 Objective
+# SENTINEL-B  
+## Behavioural Early Warning Intelligence System
 
-To detect early behavioural signals of academic burnout and dropout risk using temporal behavioural analytics and predictive modelling.
+SENTINEL-B is a behavioural analytics platform designed to detect early signs of student burnout and dropout risk using temporal behavioural modelling and predictive machine learning.
 
-🧠 Methodology
+---
 
-Synthetic behavioural data simulation (6,000 students × 12 weeks)
+## 🎯 Problem Addressed
 
-Markov-style state transition modelling
+Universities typically detect academic risk only after performance drops.  
+This system identifies **early behavioural signals** such as:
 
-Temporal derivative feature engineering
+- Reduced LMS engagement
+- Submission delay escalation
+- Attendance decline
+- Sentiment drift
+- Behavioural volatility
 
-Risk scoring framework
+---
 
-Multi-model comparison
+## 🧠 Methodology
 
-Stratified cross-validation
+1. Synthetic behavioural data simulation (6000 students × 12 weeks)
+2. State-based behavioural transition modelling
+3. Temporal feature engineering (velocity, acceleration, drift)
+4. Risk scoring framework (0–100)
+5. Multi-model ML comparison
+6. Stratified 5-fold cross-validation
+7. Institutional clustering analysis
 
-Behavioural clustering analysis
+---
 
-📊 Models Used
+## 🤖 Models Evaluated
 
-Random Forest
-
-Gradient Boosting
-
-Logistic Regression
+- Random Forest
+- Gradient Boosting
+- Logistic Regression
 
 Best model selected based on ROC-AUC.
 
-📈 Evaluation Metrics
+---
 
-Accuracy
+## 📊 Evaluation Metrics
 
-Precision
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- Brier Score
+- Cross-validation mean & std
+- Confusion Matrix
+- ROC Curve
 
-Recall
+---
 
-F1-score
+## 🖥 Dashboard Capabilities
 
-ROC-AUC
+### 🎓 Individual Intelligence
+- Risk Timeline
+- Risk Acceleration
+- Behavioural Radar Profile
+- Transition Matrix
+- Feature Importance
+- Early Warning Alerts
 
-Brier Score
+### 🏛 Institutional Command Center
+- Risk Distribution
+- Weekly Risk Trends
+- High-Risk Ranking
+- Global Transition Matrix
+- Dropout Probability Analysis
 
-5-Fold Cross Validation
+---
 
-Confusion Matrix
+## 🚀 How to Run
 
-ROC Curve Analysis
+### 1️⃣ Generate Dataset
 
-🧠 Behavioural Insights
+### 2️⃣ Train Model
 
-Engagement volatility strongly predicts burnout escalation.
+### 3️⃣ Launch Dashboard
+---
 
-Attendance decline accelerates dropout probability.
+## 📌 Key Insight
 
-Mid-semester behavioural instability peaks.
+Engagement volatility and attendance drift emerge as dominant behavioural predictors of burnout escalation.
 
-🎛 Dashboard Features
+---
 
-Individual behavioural intelligence board
-
-Institutional risk command center
-
-Early warning alerts
-
-Feature importance analysis
-
-Transition heatmaps
-
-Behavioural radar profiling
+## 🏆 Built For Behavioural Analytics Hackathon
